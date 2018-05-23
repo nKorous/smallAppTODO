@@ -1,5 +1,10 @@
 # SmallApp
 
+This app is built as a training and testing app. There are times that the app is going to be unstable. I will try and only have stable versions on
+the master branch but as this is very much a side project i'll do my best. Feel free to fork/clone this and use it however you would like.
+
+## Created
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
 ## Development server

@@ -1,6 +1,8 @@
 {
   "name": "small-app",
   "version": "0.0.0",
+  "license": "MIT",
+  "description": "Using this small TODO to teach and test things.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
