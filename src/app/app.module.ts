@@ -7,7 +7,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Angular Material Imports
-import { MatToolbarModule, MatButtonModule, MatCardModule, MatInputModule, MatSnackBarModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatCardModule, MatInputModule, MatSnackBarModule, MatDatepickerModule, MatDividerModule } from '@angular/material';
+
+//Others
 import { GetInfoComponent } from './get-info/get-info.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { PagenotfoundComponent } from './error/pagenotfound.component'
@@ -32,6 +34,8 @@ import { PagenotfoundComponent } from './error/pagenotfound.component'
     MatCardModule,
     MatInputModule,
     MatSnackBarModule,
+    MatDatepickerModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

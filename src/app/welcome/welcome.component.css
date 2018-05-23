@@ -1,0 +1,42 @@
+
+
+.taskInfoClass {
+    font-size: 20pt;
+    margin: 25px;
+    padding: 10px;
+}
+
+.taskInfoClass input {
+    font-size: 18pt;
+    width: 350px;
+}
+
+.newTaskClass {
+    text-align: center;
+    height: 40%;
+}
+
+.newTaskButton {
+    padding: 20px;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+.taskListDiv {
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.myList {
+    margin: 5px;
+    font-size: 18pt;
+    border-bottom: 2px ridge black;
+    margin-bottom: 10px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}

@@ -15,4 +15,8 @@ export class StorageService {
   getMyInfo(){
     return sessionStorage.getItem('myInfo')
   }
+
+  logOut(){
+    sessionStorage.clear()
+  }
 }
