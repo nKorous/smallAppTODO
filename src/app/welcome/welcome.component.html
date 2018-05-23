@@ -1,3 +1,27 @@
-<p>
-  welcome works!
-</p>
+<mat-card class='todoClass'>
+  <mat-card-title style='text-align: center; font-size: 28pt;'>New Task
+    <mat-divider></mat-divider>
+  </mat-card-title>
+  <mat-card-content class='newTaskClass'>
+    <span class='taskInfoClass'>Task Name: <input class='taskClass' mat-input type='text' placeholder='Please Name Your Task' [(ngModel)]='taskName' required></span>
+    <span class='taskInfoClass'>Task Comment: <input matInput type='text' placeholder='Add Comment' [(ngModel)]='taskComment'></span>
+    <span class='taskInfoClass'>Task Due(optional): <input type='date' [(ngModel)]='taskDue'></span>
+  </mat-card-content>
+  <mat-card-footer style='text-align: center'>
+    <button class='newTaskButton' mat-raised-button color='warn' (click)="addTask(taskName, taskComment, taskDue)"> Create New Task</button>
+  </mat-card-footer>
+</mat-card>
+
+<div class='taskListDiv' *ngIf='taskList.length'>
+  <mat-card *ngFor='let x of taskList' class='myList'>
+    <mat-card-title> Task ID: {{ x.taskID }} Task Name: {{ x.taskName }} Due: {{ x.taskDue || 'Not Set' }}</mat-card-title>
+    <mat-card-content>
+      <p>Comment: <br>
+        {{ x.taskComments }}
+      </p>
+    </mat-card-content>
+    <mat-card-footer style='text-align: right; margin: 5px'>
+      <p>Created By: {{ x.createdBy || 'Not Set'}}</p>
+    </mat-card-footer>
+  </mat-card>
+</div>
