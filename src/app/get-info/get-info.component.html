@@ -1,0 +1,11 @@
+<mat-card class='getInfoClass'>
+  <mat-card-title style='text-align: center; font-size: 28pt;'>What is your name?</mat-card-title>
+  <mat-card-content class='getNameClass'>
+    <span>My Name Is: 
+      <input class='getNameClass' mat-input type='text' placeholder='Please Type Your Name' [(ngModel)]='name' required>
+    </span>
+    <div class='getInfoDivClass'>
+      <button mat-raised-button color='primary' class='buttonClass' (click)='storeInfo()'>Get TODO!</button>
+    </div>
+  </mat-card-content>
+</mat-card>

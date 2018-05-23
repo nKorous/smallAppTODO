@@ -1,0 +1,34 @@
+.getInfoClass {
+    position: absolute;
+    height: 30%;
+    width: 60%;
+    top: 30%;
+    right: 20%;
+    background-color: whitesmoke;
+    color: black;
+    border: 3px solid black;
+    border-radius: 25px
+}
+
+.getNameClass {
+    font-size: 22pt;
+    margin-left: 20px;
+}
+
+.getInfoDivClass {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 5px;
+
+}
+
+.buttonClass {
+    width: 150px;
+    height: 75px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 16pt;
+}
